@@ -44,6 +44,7 @@
                 android:layout_height="35dp"
                 android:id="@+id/Player_One_Goal_Orange"
                 android:text="+1"
+                android:onClick="player_one_orange_goal_button"
                 android:layout_below="@+id/Player_One_Name_Orange"
                 android:layout_alignParentLeft="true"
                 android:textAlignment="center"/>
@@ -69,6 +70,7 @@
                 android:layout_width="50dp"
                 android:layout_height="35dp"
                 android:text="+1"
+                android:onClick="player_one_orange_save_button"
                 android:id="@+id/Player_One_Save_Orange"
                 android:layout_below="@+id/Player_One_Goal_Orange"/>
             <TextView
@@ -94,13 +96,13 @@
                 android:textSize="30dp"
                 android:text="Total: "
                 android:paddingTop="5dp"
-                android:id="@+id/Player_One_Total_Orange"
                 android:layout_alignParentLeft="true"
                 android:layout_below="@+id/Player_One_Save_Orange"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
+                android:id="@+id/Player_One_Total_Orange"
                 android:textSize="40sp"
                 android:layout_alignParentRight="true"
                 android:paddingRight="30sp"
@@ -265,6 +267,7 @@
             android:layout_height="wrap_content"
             android:textSize="40sp"
             android:text="0"
+            android:id="@+id/Orange_Team_Total"
             android:layout_alignParentRight="true"
             android:paddingTop="10dp"
             android:paddingRight="25dp"
@@ -529,6 +532,7 @@
             android:layout_height="wrap_content"
             android:textSize="40sp"
             android:text="0"
+            android:id="@+id/Blue_Team_Total"
             android:layout_alignParentRight="true"
             android:paddingTop="10dp"
             android:paddingRight="25dp"
