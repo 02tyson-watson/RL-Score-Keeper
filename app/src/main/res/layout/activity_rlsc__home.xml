@@ -5,11 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RLSC_Home">
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/rl_platform_keyart_2019"
-        android:cropToPadding="true"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

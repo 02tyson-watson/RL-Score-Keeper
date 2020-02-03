@@ -14,6 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Orange"
+            android:textColor="#FF9800"
             android:textSize="30dp"
             android:layout_centerInParent="true"
             android:layout_alignParentTop="true"
@@ -22,6 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0"
+            android:textColor="#FF9800"
             android:id="@+id/Orange_Team_Goals"
             android:textSize="45dp"
             android:layout_below="@+id/Orange_Team"
@@ -35,6 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Player One"
+                android:textColor="#000000"
                 android:textSize="20dp"
                 android:id="@+id/Player_One_Name_Orange"
                 android:layout_centerInParent="true"
@@ -44,12 +47,14 @@
                 android:layout_height="35dp"
                 android:id="@+id/Player_One_Goal_Orange"
                 android:text="+1"
+                android:textColor="#000000"
                 android:onClick="player_one_orange_goal_button"
                 android:layout_below="@+id/Player_One_Name_Orange"
                 android:layout_alignParentLeft="true"
                 android:textAlignment="center"/>
             <TextView
                 android:layout_width="wrap_content"
+                android:textColor="#000000"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/Player_One_Name_Orange"
                 android:text="Goals:"
@@ -60,6 +65,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#000000"
                 android:text="0"
                 android:layout_below="@+id/Player_One_Name_Orange"
                 android:layout_alignParentRight="true"
@@ -70,11 +76,13 @@
                 android:layout_width="50dp"
                 android:layout_height="35dp"
                 android:text="+1"
+                android:textColor="#000000"
                 android:onClick="player_one_orange_save_button"
                 android:id="@+id/Player_One_Save_Orange"
                 android:layout_below="@+id/Player_One_Goal_Orange"/>
             <TextView
                 android:layout_width="wrap_content"
+                android:textColor="#000000"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/Player_One_Goals_Orange"
                 android:layout_centerInParent="true"
@@ -84,6 +92,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#000000"
                 android:layout_below="@+id/Player_One_Goals_Orange"
                 android:layout_alignParentRight="true"
                 android:text="0"
@@ -94,6 +103,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30dp"
+                android:textColor="#000000"
                 android:text="Total: "
                 android:paddingTop="5dp"
                 android:layout_alignParentLeft="true"
@@ -103,6 +113,7 @@
                 android:layout_height="wrap_content"
                 android:text="0"
                 android:id="@+id/Player_One_Total_Orange"
+                android:textColor="#000000"
                 android:textSize="40sp"
                 android:layout_alignParentRight="true"
                 android:paddingRight="30sp"
@@ -117,6 +128,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Player Two"
+            android:textColor="#000000"
             android:id="@+id/Player_Two_Name_Orange"
             android:layout_centerInParent="true"
             android:layout_alignParentTop="true"
@@ -126,10 +138,12 @@
             android:layout_height="35dp"
             android:layout_below="@+id/Player_Two_Name_Orange"
             android:text="+1"
+            android:onClick="player_two_orange_goal_button"
             android:id="@+id/Player_Two_Goal_Orange"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
             android:layout_centerInParent="true"
             android:layout_below="@+id/Player_Two_Name_Orange"
             android:text="Goals: "
@@ -141,17 +155,21 @@
             android:layout_below="@+id/Player_Two_Name_Orange"
             android:layout_alignParentRight="true"
             android:text="0"
+            android:id="@+id/Player_Two_Goals_Orange"
+            android:textColor="#000000"
             android:textSize="25dp"
             android:paddingRight="20dp"/>
         <Button
             android:layout_width="50dp"
             android:layout_height="35dp"
+            android:onClick="player_two_orange_save_button"
             android:layout_below="@id/Player_Two_Goal_Orange"
             android:text="+1"
             android:id="@+id/Player_Two_Save_Orange"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
             android:text="Saves: "
             android:paddingTop="5dp"
             android:layout_below="@+id/Player_Two_Goal_Orange"
@@ -159,6 +177,8 @@
             android:textSize="20dp"/>
         <TextView
             android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:id="@+id/Player_Two_Saves_Orange"
             android:layout_height="wrap_content"
             android:text="0"
             android:layout_below="@+id/Player_Two_Goal_Orange"
@@ -170,12 +190,15 @@
             android:layout_height="wrap_content"
             android:text="Total: "
             android:paddingTop="5dp"
+            android:textColor="#000000"
             android:textSize="30sp"
             android:layout_below="@+id/Player_Two_Save_Orange"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0"
+            android:id="@+id/Player_Two_Total_Orange"
+            android:textColor="#000000"
             android:textSize="40sp"
             android:layout_alignParentRight="true"
             android:layout_below="@id/Player_Two_Save_Orange"
@@ -190,6 +213,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Player Three"
+                android:textColor="#000000"
                 android:id="@+id/Player_Three_Name_Orange"
                 android:layout_centerInParent="true"
                 android:layout_alignParentTop="true"
@@ -197,13 +221,16 @@
             <Button
                 android:layout_width="50dp"
                 android:layout_height="35dp"
+                android:textColor="#000000"
                 android:layout_below="@+id/Player_Three_Name_Orange"
                 android:text="+1"
+                android:onClick="player_three_orange_goal_button"
                 android:id="@+id/Player_Three_Goal_Orange"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
+                android:textColor="#000000"
                 android:layout_below="@+id/Player_Three_Name_Orange"
                 android:text="Goals: "
                 android:paddingTop="5dp"
@@ -214,11 +241,15 @@
                 android:layout_below="@+id/Player_Three_Name_Orange"
                 android:layout_alignParentRight="true"
                 android:text="0"
+                android:id="@+id/Player_Three_Goals_Orange"
+                android:textColor="#000000"
                 android:textSize="25dp"
                 android:paddingRight="20dp"/>
             <Button
                 android:layout_width="50dp"
                 android:layout_height="35dp"
+                android:textColor="#000000"
+                android:onClick="player_three_orange_save_button"
                 android:layout_below="@id/Player_Three_Goal_Orange"
                 android:text="+1"
                 android:id="@+id/Player_Three_Save_Orange"/>
@@ -227,6 +258,7 @@
                 android:layout_height="wrap_content"
                 android:text="Saves: "
                 android:paddingTop="5dp"
+                android:textColor="#000000"
                 android:layout_below="@+id/Player_Three_Goal_Orange"
                 android:layout_centerInParent="true"
                 android:textSize="20dp"/>
@@ -234,6 +266,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
+                android:id="@+id/Player_Three_Saves_Orange"
+                android:textColor="#000000"
                 android:layout_below="@+id/Player_Three_Goal_Orange"
                 android:layout_alignParentRight="true"
                 android:paddingRight="20dp"
@@ -243,35 +277,20 @@
                 android:layout_height="wrap_content"
                 android:text="Total: "
                 android:paddingTop="5dp"
+                android:textColor="#000000"
                 android:textSize="30sp"
                 android:layout_below="@+id/Player_Three_Save_Orange"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#000000"
                 android:text="0"
+                android:id="@+id/Player_Three_Total_Orange"
                 android:textSize="40sp"
                 android:layout_alignParentRight="true"
                 android:layout_below="@id/Player_Three_Save_Orange"
                 android:paddingRight="25dp"/>
         </RelativeLayout>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/Player_Three_Orange"
-            android:text="Total: "
-            android:textSize="40dp"
-            android:layout_alignParentLeft="true"
-            android:paddingTop="10dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="40sp"
-            android:text="0"
-            android:id="@+id/Orange_Team_Total"
-            android:layout_alignParentRight="true"
-            android:paddingTop="10dp"
-            android:paddingRight="25dp"
-            android:layout_below="@+id/Player_Three_Orange"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="180dp"
@@ -281,6 +300,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Blue"
+            android:textColor="#003BFF"
             android:textSize="30dp"
             android:layout_centerInParent="true"
             android:id="@+id/Blue_Team"
@@ -290,6 +310,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/Blue_Team"
             android:textSize="45dp"
+            android:textColor="#003BFF"
             android:text="0"
             android:layout_centerInParent="true"
             android:id="@+id/Blue_Team_Goals"/>
@@ -302,6 +323,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Player One"
+                android:textColor="#000000"
                 android:textSize="20dp"
                 android:id="@+id/Player_One_Name_Blue"
                 android:layout_centerInParent="true"
@@ -311,11 +333,13 @@
                 android:layout_height="35dp"
                 android:id="@+id/Player_One_Goal_Blue"
                 android:text="+1"
+                android:onClick="player_one_blue_goal_button"
                 android:layout_below="@+id/Player_One_Name_Blue"
                 android:layout_alignParentLeft="true"
                 android:textAlignment="center"/>
             <TextView
                 android:layout_width="wrap_content"
+                android:textColor="#000000"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/Player_One_Name_Blue"
                 android:text="Goals:"
@@ -326,6 +350,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#000000"
                 android:text="0"
                 android:layout_below="@+id/Player_One_Name_Blue"
                 android:layout_alignParentRight="true"
@@ -336,10 +361,12 @@
                 android:layout_width="50dp"
                 android:layout_height="35dp"
                 android:text="+1"
+                android:onClick="player_one_blue_save_button"
                 android:id="@+id/Player_One_Save_Blue"
                 android:layout_below="@+id/Player_One_Goal_Blue"/>
             <TextView
                 android:layout_width="wrap_content"
+                android:textColor="#000000"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/Player_One_Goals_Blue"
                 android:layout_centerInParent="true"
@@ -349,6 +376,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#000000"
                 android:layout_below="@+id/Player_One_Goals_Blue"
                 android:layout_alignParentRight="true"
                 android:text="0"
@@ -360,15 +388,17 @@
                 android:layout_height="wrap_content"
                 android:textSize="30dp"
                 android:text="Total: "
+                android:textColor="#000000"
                 android:paddingTop="5dp"
-                android:id="@+id/Player_One_Total_Blue"
                 android:layout_alignParentLeft="true"
                 android:layout_below="@+id/Player_One_Save_Blue"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
+                android:id="@+id/Player_One_Total_Blue"
                 android:textSize="40sp"
+                android:textColor="#000000"
                 android:layout_alignParentRight="true"
                 android:paddingRight="30sp"
                 android:layout_below="@+id/Player_One_Saves_Blue"/>
@@ -382,6 +412,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Player Two"
+                android:textColor="#000000"
                 android:id="@+id/Player_Two_Name_Blue"
                 android:layout_centerInParent="true"
                 android:layout_alignParentTop="true"
@@ -391,17 +422,20 @@
                 android:layout_height="35dp"
                 android:layout_below="@+id/Player_Two_Name_Blue"
                 android:text="+1"
+                android:textColor="#000000"
                 android:id="@+id/Player_Two_Goal_Blue"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
+                android:textColor="#000000"
                 android:layout_below="@+id/Player_Two_Name_Blue"
                 android:text="Goals: "
                 android:paddingTop="5dp"
                 android:textSize="20dp"/>
             <TextView
                 android:layout_width="wrap_content"
+                android:textColor="#000000"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/Player_Two_Name_Blue"
                 android:layout_alignParentRight="true"
@@ -416,6 +450,7 @@
                 android:id="@+id/Player_Two_Save_Blue"/>
             <TextView
                 android:layout_width="wrap_content"
+                android:textColor="#000000"
                 android:layout_height="wrap_content"
                 android:text="Saves: "
                 android:paddingTop="5dp"
@@ -425,6 +460,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#000000"
                 android:text="0"
                 android:layout_below="@+id/Player_Two_Goal_Blue"
                 android:layout_alignParentRight="true"
@@ -434,12 +470,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Total: "
+                android:textColor="#000000"
                 android:paddingTop="5dp"
                 android:textSize="30sp"
                 android:layout_below="@+id/Player_Two_Save_Blue"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#000000"
                 android:text="0"
                 android:textSize="40sp"
                 android:layout_alignParentRight="true"
@@ -453,6 +491,7 @@
             android:id="@+id/Player_Three_Blue">
             <TextView
                 android:layout_width="wrap_content"
+                android:textColor="#000000"
                 android:layout_height="wrap_content"
                 android:text="Player Three"
                 android:id="@+id/Player_Three_Name_Blue"
@@ -468,6 +507,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#000000"
                 android:layout_centerInParent="true"
                 android:layout_below="@+id/Player_Three_Name_Blue"
                 android:text="Goals: "
@@ -479,6 +519,7 @@
                 android:layout_below="@+id/Player_Three_Name_Blue"
                 android:layout_alignParentRight="true"
                 android:text="0"
+                android:textColor="#000000"
                 android:textSize="25dp"
                 android:paddingRight="20dp"/>
             <Button
@@ -489,6 +530,7 @@
                 android:id="@+id/Player_Three_Save_Blue"/>
             <TextView
                 android:layout_width="wrap_content"
+                android:textColor="#000000"
                 android:layout_height="wrap_content"
                 android:text="Saves: "
                 android:paddingTop="5dp"
@@ -497,6 +539,7 @@
                 android:textSize="20dp"/>
             <TextView
                 android:layout_width="wrap_content"
+                android:textColor="#000000"
                 android:layout_height="wrap_content"
                 android:text="0"
                 android:layout_below="@+id/Player_Three_Goal_Blue"
@@ -508,34 +551,18 @@
                 android:layout_height="wrap_content"
                 android:text="Total: "
                 android:paddingTop="5dp"
+                android:textColor="#000000"
                 android:textSize="30sp"
                 android:layout_below="@+id/Player_Three_Save_Blue"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
+                android:textColor="#000000"
                 android:textSize="40sp"
                 android:layout_alignParentRight="true"
                 android:layout_below="@id/Player_Three_Save_Blue"
                 android:paddingRight="25dp"/>
         </RelativeLayout>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/Player_Three_Blue"
-            android:text="Total: "
-            android:textSize="40dp"
-            android:layout_alignParentLeft="true"
-            android:paddingTop="10dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="40sp"
-            android:text="0"
-            android:id="@+id/Blue_Team_Total"
-            android:layout_alignParentRight="true"
-            android:paddingTop="10dp"
-            android:paddingRight="25dp"
-            android:layout_below="@+id/Player_Three_Blue"/>
     </RelativeLayout>
 </RelativeLayout>
